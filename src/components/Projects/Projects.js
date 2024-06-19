@@ -22,6 +22,15 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Burger House"
+              description="Burger House is a web application for online burger ordering. The project was developed using modern technologies and tools to create an interactive and user-friendly user interface."
+              ghLink="https://github.com/GulaiymEdilbaeva/buger-house-ITology"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={chatify}
               isBlog={false}
               title="Bilingual"
@@ -37,7 +46,7 @@ function Projects() {
               title="Order Food"
               description="This is my project that was written in 2-3 months.Food ordering is the process when people order cooked food from restaurants, cafes or food delivery. This method of obtaining food has become incredibly popular in recent decades, and this is not surprising, given the convenience, choice , and the availability of food ordering services.
               Ordering food provides many benefits for both consumers and restaurants and cafes:"
-              ghLink="https://github.com/GulaiymEdilbaeva/order-food"
+              ghLink="https://github.com/GulaiymEdilbaeva/order-food-with-adminPart"
             />
           </Col>
 

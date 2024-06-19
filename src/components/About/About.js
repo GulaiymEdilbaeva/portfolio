@@ -4,7 +4,7 @@ import Particle from "../Particle";
 
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/photo_2023-11-01_22-45-38.jpg";
+import laptopImg from "../../Assets/IMG_5175.jpg";
 import Toolstack from "./Toolstack";
 
 function About() {
